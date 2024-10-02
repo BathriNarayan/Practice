@@ -3,8 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="hello" class="com.example.webapp.Hello">
-        <property name="name" value="2"></property>
-        <property name="Rollno" value="25"></property>
-          </bean>
+
+
+    <bean id="heme" class="com.example.webapp.homeontroller">
+    </bean>
+
 </beans>

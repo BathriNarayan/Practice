@@ -11,9 +11,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class WebAppApplication {
 
     public static void main(String[] args) {
-
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-       // Hello obj =(Hello) context.getBean("hello");
+        SpringApplication.run(WebAppApplication.class, args);
+        //ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+       //  Hello obj =(Hello) context.getBean("hello");
 
 
 
